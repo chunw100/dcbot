@@ -9,7 +9,7 @@ from fuzzywuzzy import fuzz
 
 
 
-TOKEN = os.getenv(token)
+TOKEN = os.getenv('token')
 admin = "1132119254062346290"
 
 # 定義一個不雅字眼的清單，用於檢測使用者的訊息內容
