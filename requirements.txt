@@ -1,3 +1,4 @@
 discord
 fuzzywuzzy
 google-generativeai
+gunicorn
