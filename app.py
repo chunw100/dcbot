@@ -3,6 +3,9 @@ import os
 from fuzzywuzzy import fuzz
 import random
 import google.generativeai as genai
+from keep_online import keep
+
+keep()
 
 def ai(q):
   genai.configure(api_key=os.environ['API'])
