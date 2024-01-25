@@ -2,3 +2,4 @@ discord
 fuzzywuzzy
 google-generativeai
 flask
+gunicorn
