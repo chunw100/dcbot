@@ -13,3 +13,4 @@ def run_flask():
 
 def keep():
     Thread(target=run_flask).start
+    print("http ok!")
